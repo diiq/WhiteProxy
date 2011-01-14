@@ -1,0 +1,36 @@
+I get distracted very easily, and when I am looking up something
+important, I don't like spending my willpower avoiding distractions:
+facebook, my email, comics, youtube, twitter ---- all the ten-thousand
+things. 
+
+What could I do? I wrote a little proxy server that block all content
+unrelated to the task at hand. It even takes the time to look up
+related words, so that it won't block anything important. It also only
+gives me ten minutes of access --- plenty of time to open some
+documentation, not enough time to open 50 tabs of vaguely related
+journal articles.
+
+I don't reccomend using this all the time --- sometimes free
+association hyperlinking is very valuable --- but when the job needs
+doing, I don't need distracting. So I use WhiteProxy.
+
+Necessary Accoutrements:
+
+python 2.6 or greater
+twisted, the python server library
+
+
+Quickstart: 
+
+1. Set your browser to use the proxy: localhost:8080
+2. python prox.py -p 8080 "twisted api" 
+3. Hurry up and surf, you have ten minutes.
+
+
+prox.cgi, index.html, and prox.js are a sketch of what this might look
+like if it wished it were pretty. If you'd like to use the web
+interface, you'll also need a local server capable of running python
+cgi scripts.
+
+
+
